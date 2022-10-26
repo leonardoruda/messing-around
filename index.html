@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/login-mobile-first.css" media="all">
+    <link rel="stylesheet" href="estilos/login-media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                <!-- Foto -->
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente! Faça o seu login para acessar as funcionalidades.</p>
+                <form action="home.html" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="mail" id="imail" required minlength="5" maxlength="30" autocomplete="email" placeholder="digite seu e-mail">
+                        <label for="iusu">Usuário: </label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" autocomplete="current-password" placeholder="digite sua senha">
+                        <label for="isenha">Senha: </label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="botao">
+                        Esqueci minha senha <i class="material-icons">mail</i>
+                    </a>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
