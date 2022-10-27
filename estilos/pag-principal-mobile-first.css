@@ -34,7 +34,35 @@ section#iframe > iframe {
     left: 50%;
     height: 75%;
     width: 87%;
+
     transform: translate(-48.5%, -49.5%);
+}
 
+section#botoes {
+    float: right;
+    transform: translate(-10%, 50%);
+    
+}
 
+section#botoes > div.botoes {
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+section#botoes > div.botoes img {
+    
+    height: 75px;
+    width: 75px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.7);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+section#botoes > div.botoes img:hover {
+    
+    border: 1px solid white;
+    box-shadow: -1px -1px 6px 3px rgba(255, 255, 255, 0.4);
+
+    transform: translate(-10px, -10px);
+    transition: transform .3s, border 1s, box-shadow 1s;
 }
