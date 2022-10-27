@@ -11,6 +11,7 @@
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
+    font-size: 1em;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
 
 section#login {
     position: absolute;
-    height: 500px;
+    height: 510px;
     width: 250px;
     top: 50%;
     left: 50%;
@@ -32,7 +33,8 @@ section#login {
     border-radius: 20px;
 
     transform: translate(-50%, -50%);
-    
+    transition: width 1s, height .5s, float 1s;
+    transition-timing-function: ease;
 }
 
 section#login > div#img {
@@ -54,7 +56,7 @@ div#form h1 {
 
 div#form p {
     font-size: 1em;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 form > div.campo {
@@ -96,6 +98,7 @@ form > input[type=submit] {
     display: block;
     background-color: #49a09d;
     width: 100%;
+    height: 40px;
     padding: 5px;
     margin-bottom: 3px;
     border-radius: 5px;
@@ -111,8 +114,10 @@ form > a.botao {
     background-color: white;
     color: #3b817f;
     width: 100%;
+    height: 40px;
     margin-top: 5px;
-    padding-top: 1px;
+    padding-top: 7px;
+    font-size: 0.9em;
     text-align: center;
     
     border: 2px solid black;
