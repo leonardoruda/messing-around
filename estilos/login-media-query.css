@@ -2,10 +2,61 @@
 
 /* CSS Laptops */
 @media screen and (min-width:768px) and (max-width: 1024px) {
-    
+    main {
+        background-image: linear-gradient(to top, #49a09d, #83973a, #5f2c82)
+    }
+    section#login {
+        width: 712px;
+        height: 300px;
+    }
+
+    section#login > div#img {
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    section#login > div#form {
+        float: left;
+        width: 60%;
+    }
+
+    div#form h1 {
+        font-size: 1.1em;
+    }
+    div#form p {
+        font-size: 1.1em;
+    }
+
+    form > a.botao {
+        margin-bottom: 10px;
+    }
 }
 
 /* CSS Desktops */
 @media screen and (min-width: 1024px) {
-    
+    main {
+        background-image: linear-gradient(to top, #49a09d, #83973a, #5f2c82)
+    }
+
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+
+    section#login > div#img {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+    section#login > div#form {
+        float: right;
+        width: 65%;
+    }
+
+    div#form h1 {
+        font-size: 1.25em;
+    }
+    div#form p {
+        font-size: 1.25em;
+    }
 }
