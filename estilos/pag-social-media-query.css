@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    section#iframe {
+        background: rgba(180, 180, 180, 0) url(../imagens/icon-pc.png) no-repeat;
+        background-size: cover;
+        height: 590px;
+        width: 690px;
+        box-shadow: none;
+
+        transition: height .5s, width .5s, transform .5s;
+        transition-timing-function: ease;
+    }
+    section#iframe iframe {
+        height: 295px;
+        width: 497px;
+        transform: translate(-49.9%, -61.2%);
+        border-radius: 13px;
+
+        transition: height .5s, width .5s, transform .5s;
+        transition-timing-function: ease;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section#iframe {
+        background: rgba(180, 180, 180, 0) url(../imagens/icon-pc.png) no-repeat;
+        background-size: cover;
+        height: 790px;
+        width: 890px;
+        box-shadow: none;
+
+        transition: height .5s, width .5s, transform .5s;
+        transition-timing-function: ease;
+    }
+
+    section#iframe iframe {
+        height: 48.5%;
+        width: 72.3%;
+        transform: translate(-49.9%, -65%);
+        border: 1px solid black;
+        border-radius: 20px;
+
+        transition: height .5s, width .5s, transform .5s;
+        transition-timing-function: ease;
+    }
+
+    section#botoes {
+        transform: translate(-35%, 34%);
+
+        transition: transform 1s;
+        transition-timing-function: ease;
+    }
+
+    section#botoes > div.botoes img {
+        height: 90px;
+        width: 90px;
+
+        transition: height 1s, width 1s;
+        transition-timing-function: ease;
+    }
+}
