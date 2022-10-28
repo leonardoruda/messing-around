@@ -22,6 +22,7 @@ section#iframe {
     height: 625px;
     width: 305px;
     background: rgba(180, 180, 180, 0) url(../imagens/frame-iphone.png) no-repeat;
+    padding: 10px;
     border-radius: 48px;
     overflow: hidden;
     box-shadow: 3px 5px 20px -4px black;
@@ -42,7 +43,7 @@ section#iframe > iframe {
 section#botoes {
     float: right;
     transform: translate(-10%, 38%);
-    
+    padding: 10px;
 }
 
 section#botoes > div.botoes {
