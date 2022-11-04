@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redes Sociais</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/pag-social-mobile-first.css">
     <link rel="stylesheet" href="estilos/pag-social-media-query.css">
 </head>
@@ -22,5 +24,14 @@
             <div id="back" class="botoes"><a href="index.html"><img src="imagens/back.png" alt="Voltar"></a></div>
         </section>
     </main>
+    <script>
+        window.addEventListener("message", receiveMessage, false)
+        function receiveMessage(event) {
+            var source = event.source.frameElement
+            var message = event.data
+            alert('Estes botões não são interativos! Os botões que podem ser clicados estão na lateral!')
+            //outraFunção()
+        }
+    </script>
 </body>
 </html>

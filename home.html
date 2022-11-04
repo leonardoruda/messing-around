@@ -23,7 +23,13 @@
         }
     </style>
 </head>
-<body>
+<body onclick="enviarMsg()">
     <img src="imagens/tela-home.jpg" alt="">
+    <script>
+        function enviarMsg() {
+            var message = 'Estes botões não são interativos! Os botões que podem ser clicados foram demarcados!'
+            window.parent.postMessage(message, '*');
+        }
+    </script>
 </body>
 </html>
